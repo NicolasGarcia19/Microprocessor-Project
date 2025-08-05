@@ -30,3 +30,5 @@ output_files/
 *.csv
 *.html
 *.wlf
+*.qdf
+c5_pin_model.txt
