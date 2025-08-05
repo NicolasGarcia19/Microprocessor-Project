@@ -1,0 +1,407 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/simulation/modelsim
+vadder
+Z1 !s110 1746481416
+!i10b 1
+!s100 >B@Pn<:4U?EA>K@ej_VOO2
+IciJ5Q?6M<LRSNX3]KRMN63
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1744681309
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1746481416.000000
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)
+Z8 tCvgOpt 0
+vadder1bit
+Z9 !s110 1746481418
+!i10b 1
+!s100 [<j^7<an5?eh3fQ;W1lPT1
+I6U7dhCV_HSV7a<^8[86Tm2
+R2
+R0
+R3
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder1bit.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder1bit.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1746481418.000000
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder1bit.v|
+!i113 1
+R6
+R7
+R8
+valu
+Z11 !s110 1746481415
+!i10b 1
+!s100 gVGPioT27?]n>MJ2nLORX2
+ICQIG7X6[mhgY=EE4GU>Z:0
+R2
+R0
+R3
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/alu.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/alu.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z12 !s108 1746481415.000000
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/alu.v|
+!i113 1
+R6
+R7
+R8
+vcontrol
+R11
+!i10b 1
+!s100 kQVL_QbY2Ol<_Y`VhihRN3
+I0aEA5<GL01gbT06XXb=1a2
+R2
+R0
+R3
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/control.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/control.v
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/control.v|
+!i113 1
+R6
+R7
+R8
+vcpu
+Z13 !s110 1746481417
+!i10b 1
+!s100 ?`3j_^LBB>c9C5XKZZiaW3
+IOUX0=R9z[Xd=dU<:dYO:J2
+R2
+R0
+w1745454134
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/cpu.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/cpu.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z14 !s108 1746481417.000000
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/cpu.v|
+!i113 1
+R6
+R7
+R8
+vdecoder
+R11
+!i10b 1
+!s100 EJeH93_5L58CXmjJNK8lK0
+ICnEmS081E<JB2R8TTK[b^1
+R2
+R0
+w1745861496
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/decoder.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/decoder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/decoder.v|
+!i113 1
+R6
+R7
+R8
+vdual_reg_in
+R9
+!i10b 1
+!s100 DA8ImlDoYb9<@BDI5hb0;3
+ISEhUS`G@>mEX9P43Z8c2G0
+R2
+R0
+R3
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/dual_reg_in.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/dual_reg_in.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/dual_reg_in.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/dual_reg_in.v|
+!i113 1
+R6
+R7
+R8
+vhex_to_seven_seg
+R1
+!i10b 1
+!s100 3W=9TK2]oc_=CE>Si:VH>3
+I_1zdcLZcgQ5z1lbKOmLzd2
+R2
+R0
+w1744681310
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/hex_to_seven_seg.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/hex_to_seven_seg.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/hex_to_seven_seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/hex_to_seven_seg.v|
+!i113 1
+R6
+R7
+R8
+vlab4
+R13
+!i10b 1
+!s100 T[3e6SFR@z9j>Vh^@fk[M0
+IUW65<`iIk7HT^OT9G@@8=1
+R2
+R0
+w1746481362
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4.v
+L0 1
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4.v|
+!i113 1
+R6
+R7
+R8
+vlab4_test
+Z15 !s110 1746481419
+!i10b 1
+!s100 >UhXfdeh7aQQQKZn[:Z?M1
+Im]ad0WLfn>`8Bo6YlJ?Gc3
+R2
+R0
+w1746408242
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_test.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_test.v
+L0 20
+R4
+r1
+!s85 0
+31
+!s108 1746481419.000000
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_test.v|
+!i113 1
+R6
+R7
+R8
+vlab4_top
+R9
+!i10b 1
+!s100 EQC;XAY2JGEN00ZQ]h_Yj0
+I[d=08i2LTfV?iNoBj28W12
+R2
+R0
+Z16 w1744681311
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_top.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_top.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_top.v|
+!i113 1
+R6
+R7
+R8
+vlab4dram
+R1
+!i10b 1
+!s100 =]5]DPYbBPiiI@<lm0UGV2
+IOn]>D_`kjH14de>9FfiVh2
+R2
+R0
+w1745451407
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4dram.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4dram.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4dram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4dram.v|
+!i113 1
+R6
+R7
+R8
+vlab4iramHRMmod
+R15
+!i10b 1
+!s100 E`]PEOIH4G6=H]:0:^N6g0
+IhXGacdMiBCkA=TINXS[e63
+R2
+R0
+w1746480875
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4iramhrmmod.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4iramhrmmod.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4iramhrmmod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4iramhrmmod.v|
+!i113 1
+R6
+R7
+R8
+nlab4iram@h@r@mmod
+vlogical
+R11
+!i10b 1
+!s100 oH=<f3QUPgoR2Ka08Eob33
+I^Fo_AK6efNcz6HFTME?z51
+R2
+R0
+w1745334038
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/logical.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/logical.v
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/logical.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/logical.v|
+!i113 1
+R6
+R7
+R8
+vpclock
+R13
+!i10b 1
+!s100 HaF_PGWS;O@i6IQl`6SkA1
+I;DBLO@d=`iK5P;GPhfMLZ2
+R2
+R0
+R16
+Z17 8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/var_clk.v
+Z18 FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/var_clk.v
+L0 52
+R4
+r1
+!s85 0
+31
+R14
+Z19 !s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/var_clk.v|
+Z20 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/var_clk.v|
+!i113 1
+R6
+R7
+R8
+vregfile
+R1
+!i10b 1
+!s100 Ei4I9a>;4<9:7EB7XHT3B2
+IE>co[YLHl4Fi2VocWeKkh1
+R2
+R0
+R16
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/regfile.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/regfile.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/regfile.v|
+!i113 1
+R6
+R7
+R8
+vshifter
+R11
+!i10b 1
+!s100 CQ17@UU;Gn=`3n5NaCdoP3
+Ieo2^4l]N64=90@`JUIXIW3
+R2
+R0
+R16
+8C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/shifter.v
+FC:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/shifter.v
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/shifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)|C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/shifter.v|
+!i113 1
+R6
+R7
+R8
+vvar_clk
+R13
+!i10b 1
+!s100 I74T7433gZW:e1zM[;`U`3
+IHTSgla0jY8;Lo4K2SLoGM1
+R2
+R0
+R16
+R17
+R18
+L0 1
+R4
+r1
+!s85 0
+31
+R14
+R19
+R20
+!i113 1
+R6
+R7
+R8

@@ -1,0 +1,33 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4iram1G.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/shifter.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/logical.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/decoder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/control.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/alu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/regfile.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4dram.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/hex_to_seven_seg.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/var_clk.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4iram.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/cpu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_top.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/dual_reg_in.v}
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder1bit.v}
+
+vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_test.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  lab4_test
+
+add wave *
+view structure
+view signals
+run -all

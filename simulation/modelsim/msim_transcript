@@ -1,0 +1,476 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do ECE2300_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/shifter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:35 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 17:43:35 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/logical.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:35 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/logical.v 
+# -- Compiling module logical
+# 
+# Top level modules:
+# 	logical
+# End time: 17:43:35 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:35 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/decoder.v 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 17:43:35 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:35 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/control.v 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 17:43:35 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:35 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 17:43:35 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:36 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 17:43:36 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/regfile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:36 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/regfile.v 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 17:43:36 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4dram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:36 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4dram.v 
+# -- Compiling module lab4dram
+# 
+# Top level modules:
+# 	lab4dram
+# End time: 17:43:36 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/hex_to_seven_seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:36 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/hex_to_seven_seg.v 
+# -- Compiling module hex_to_seven_seg
+# 
+# Top level modules:
+# 	hex_to_seven_seg
+# End time: 17:43:36 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/var_clk.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:37 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/var_clk.v 
+# -- Compiling module var_clk
+# -- Compiling module pclock
+# 
+# Top level modules:
+# 	var_clk
+# End time: 17:43:37 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:37 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4.v 
+# -- Compiling module lab4
+# 
+# Top level modules:
+# 	lab4
+# End time: 17:43:37 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:37 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/cpu.v 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 17:43:37 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:38 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_top.v 
+# -- Compiling module lab4_top
+# 
+# Top level modules:
+# 	lab4_top
+# End time: 17:43:38 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/dual_reg_in.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:38 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/dual_reg_in.v 
+# -- Compiling module dual_reg_in
+# 
+# Top level modules:
+# 	dual_reg_in
+# End time: 17:43:38 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder1bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:38 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/adder1bit.v 
+# -- Compiling module adder1bit
+# 
+# Top level modules:
+# 	adder1bit
+# End time: 17:43:38 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4iramhrmmod.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:38 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4iramhrmmod.v 
+# -- Compiling module lab4iramHRMmod
+# 
+# Top level modules:
+# 	lab4iramHRMmod
+# End time: 17:43:39 on May 05,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared) {C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_test.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:39 on May 05,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)" C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_test.v 
+# -- Compiling module lab4_test
+# 
+# Top level modules:
+# 	lab4_test
+# End time: 17:43:39 on May 05,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  lab4_test
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" lab4_test 
+# Start time: 17:43:41 on May 05,2025
+# Loading work.lab4_test
+# Loading work.lab4
+# Loading work.cpu
+# Loading work.decoder
+# Loading work.regfile
+# Loading work.alu
+# Loading work.adder
+# Loading work.adder1bit
+# Loading work.control
+# Loading work.shifter
+# Loading work.logical
+# Loading work.lab4iramHRMmod
+# Loading work.lab4dram
+# ** Warning: (vsim-3017) C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/cpu.v(67): [TFMPC] - Too few port connections. Expected 13, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /lab4_test/UUT/aRealProcessor/dec File: C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/decoder.v
+# ** Warning: (vsim-3722) C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/cpu.v(67): [TFMPC] - Missing connection for port 'BS'.
+# ** Warning: (vsim-3722) C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/cpu.v(67): [TFMPC] - Missing connection for port 'OFF'.
+# ** Warning: (vsim-3017) C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/cpu.v(93): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /lab4_test/UUT/aRealProcessor/alu File: C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/alu.v
+# ** Warning: (vsim-3722) C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/cpu.v(93): [TFMPC] - Missing connection for port 'V'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# MSIM> --> PC_EN = x at time = 0 (ignore until Part C)
+# MSIM> 
+# MSIM> --> PC_EN = 0 at time = 50 (ignore until Part C)
+# MSIM> 
+# MSIM> --> PC_EN = 1 at time = 250 (ignore until Part C)
+# MSIM> 
+# MSIM> Instr.   0 (PC =   2): SUB  R2, R2, R2
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   1 (PC =   4): SUB  R7, R7, R7
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   2 (PC =   6): SUB  R6, R6, R6
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   3 (PC =   8): ADDI R5, R0,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   4 (PC =  10): SRL  R5, R5
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   5 (PC =  12): LB   R3,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   6 (PC =  14): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   7 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   8 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   9 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  10 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  11 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  12 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  13 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  14 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  15 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> ERROR: Incorrect branch target  34, expected  16
+# MSIM> 
+# MSIM> Instr.  16 (PC =  34): ADDI R6, R6,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  17 (PC =  36): BNE  R0, R6, -11 (branches to PC =  16)
+# MSIM> --> ERROR: Incorrect branch target  38, expected  16
+# MSIM> 
+# MSIM> Instr.  18 (PC =  38): ADDI R5, R5,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  19 (PC =  40): BNE  R0, R5, -13 (branches to PC =  16)
+# MSIM> --> ERROR: Incorrect branch target  42, expected  16
+# MSIM> 
+# MSIM> Instr.  20 (PC =  42): ADDI R4, R2, -30
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  21 (PC =  44): BLTZ R4,   1 (branches to PC =  48)
+# MSIM> --> ERROR: Incorrect branch target  46, expected  48
+# MSIM> 
+# MSIM> Instr.  22 (PC =  46): ADDI R2, R0,  29
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  23 (PC =  48): SLL  R2, R2, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  24 (PC =  50): LB   R3,   0(R2)
+# MSIM> --> Reading 59 from data RAM address  58
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  25 (PC =  52): SB   R3,  -2(R0)
+# MSIM> --> Output on IOF of 59
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  26 (PC =  54): LB   R3,   1(R2)
+# MSIM> --> Reading 02 from data RAM address  59
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  27 (PC =  56): SB   R3,  -1(R0)
+# MSIM> --> Output on IOG of 02
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  28 (PC =  58): LB   R1,  -8(R0)
+# MSIM> --> Reading xx from data RAM address 248
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  29 (PC =  60): ADD  R5, R6, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  30 (PC =  62): ADD  R6, R7, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  31 (PC =  64): ADD  R7, R2, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  32 (PC =  66): SUB  R1, R6, R5
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  33 (PC =  68): ADD  R4, R1, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  34 (PC =  70): SUB  R1, R7, R6
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  35 (PC =  72): ADD  R3, R1, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  36 (PC =  74): BLTZ R4,   2 (branches to PC =  80)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  37 (PC =  76): ADD  R5, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  38 (PC =  78): BEQ  R0, R0,   2 (branches to PC =  84)
+# MSIM> --> ERROR: Incorrect branch target  80, expected  84
+# MSIM> 
+# MSIM> Instr.  39 (PC =  80): SUB  R5, R0, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  40 (PC =  82): BLTZ R3,   2 (branches to PC =  88)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  41 (PC =  84): ADD  R6, R3, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  42 (PC =  86): BEQ  R0, R0,   2 (branches to PC =  92)
+# MSIM> --> ERROR: Incorrect branch target  88, expected  92
+# MSIM> 
+# MSIM> Instr.  43 (PC =  88): SUB  R6, R0, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  44 (PC =  90): SUB  R1, R5, R1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  45 (PC =  92): BLTZ R1,  10 (branches to PC = 114)
+# MSIM> --> ERROR: Incorrect branch target  94, expected 114
+# MSIM> 
+# MSIM> Instr.  46 (PC =  94): SUB  R1, R6, R1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  47 (PC =  96): BLTZ R1,   8 (branches to PC = 114)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  48 (PC =  98): BLTZ R4,   2 (branches to PC = 104)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  49 (PC = 100): BGEZ R3,   4 (branches to PC = 110)
+# MSIM> --> ERROR: Incorrect branch target 102, expected 110
+# MSIM> 
+# MSIM> Instr.  50 (PC = 102): BLTZ R3,   2 (branches to PC = 108)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  51 (PC = 104): BGEZ R4,   1 (branches to PC = 108)
+# MSIM> --> ERROR: Incorrect branch target 106, expected 108
+# MSIM> 
+# MSIM> Instr.  52 (PC = 106): BEQ  R0, R0,   4 (branches to PC = 116)
+# MSIM> --> ERROR: Incorrect branch target 108, expected 116
+# MSIM> 
+# MSIM> Instr.  53 (PC = 108): ADDI R1, R0,  30
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  54 (PC = 110): ADDI R1, R1,  12
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  55 (PC = 112): SLL  R1, R1, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  56 (PC = 114): SLL  R1, R1, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  57 (PC = 116): ADDI R1, R1,   2
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  58 (PC = 118): SB   R1,  -7(R0)
+# MSIM> --> ERROR: Address 249 is READ ONLY
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  59 (PC = 120): BEQ  R0, R0,   2 (branches to PC = 126)
+# MSIM> --> ERROR: Incorrect branch target 122, expected 126
+# MSIM> 
+# MSIM> Instr.  60 (PC = 122): ADDI R1, R0,   0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  61 (PC = 124): SB   R1,  -7(R0)
+# MSIM> --> ERROR: Address 249 is READ ONLY
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  62 (PC = 126): NOP
+# MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
+# MSIM> 
+# MSIM> Instr.  63 (PC = 128): NOP
+# MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
+# MSIM> 
+# MSIM> Instr.  64 (PC = 130): NOP
+# MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
+# MSIM> 
+# MSIM> Instr.  65 (PC = 132): NOP
+# MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
+# MSIM> 
+# MSIM> Instr.  66 (PC = 134): NOP
+# MSIM> --> The test bench cannot observe NOP.  You should manually check that you haven't written to the register file.
+# MSIM> 
+# MSIM> ----------------------------------------------------------------------
+# MSIM> 
+# MSIM> PROGRAM EXECUTION SUMMARY
+# MSIM> =========================
+# MSIM> 
+# MSIM> OPCODE |  #Tests  | #Correct 
+# MSIM> -------+----------+----------
+# MSIM> NOP    |        5 |      N/A
+# MSIM> LB     |        5 |        5
+# MSIM> SB     |        4 |        4
+# MSIM> ADDI   |       10 |       10
+# MSIM> ANDI   |        3 |        3
+# MSIM> ORI    |        0 |        0
+# MSIM> ADD    |       10 |       10
+# MSIM> SUB    |        9 |        9
+# MSIM> SRA    |        0 |        0
+# MSIM> SRL    |        1 |        1
+# MSIM> SLL    |        3 |        3
+# MSIM> AND    |        1 |        1
+# MSIM> OR     |        0 |        0
+# MSIM> -------+----------+----------
+# MSIM> HALT   |        0 |      N/A
+# MSIM> BEQ    |        4 |        0
+# MSIM> BNE    |        3 |        0
+# MSIM> BGEZ   |        2 |        0
+# MSIM> BLTZ   |        7 |        5
+# MSIM> 
+# MSIM>      Correct Instructions:  51
+# MSIM>    Incorrect Instructions:  11
+# MSIM>   Unverified Instructions:   5
+# MSIM>      Invalid Instructions:   0
+# MSIM> Total Instructions Tested:  67
+# MSIM> 
+# MSIM> *****************************************************************
+# MSIM> **  You should manually verify that your register file is not  **
+# MSIM> **    being updated incorrectly!  Use the waveform to check    **
+# MSIM> **    this.  Also use the waveform to make sure that when a    **
+# MSIM> **   HALT instruction is reached, that the PC does not change  **
+# MSIM> **   until the active low button EN_L is pressed by the user.  **
+# MSIM> *****************************************************************
+# ** Note: $stop    : C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_test.v(754)
+#    Time: 6900 ns  Iteration: 1  Instance: /lab4_test
+# Break in Module lab4_test at C:/Users/nickg/Downloads/lab4(Shared)/lab4(Shared)/lab4_test.v line 754
+# End time: 18:30:34 on May 05,2025, Elapsed time: 0:46:53
+# Errors: 0, Warnings: 5
